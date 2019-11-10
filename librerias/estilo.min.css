@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Lobster";
+    src: url(googlefonts/Lobster/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(googlefonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Anton";
+    src: url(googlefonts/Anton/Anton-Regular.ttf);
+}
+.tituloprincipal{font-family: 'Lobster', cursive;text-align:center}
+.titulo,.subtitulo{font-family: 'Roboto', cursive;text-align:center}
+body{background-color:#dbdbdb; font-family: 'Roboto',sans-serif;}
+.nav{background-color:#192a56; color:#FFF;}
+.navbar-nav{padding-top:10px;padding-bottom:10px;}
+.nav-link{color:#FFF}
+.subtitulo,a:hover{color:#000}a{color:#8e44ad}
+#correo_contacto:hover{color:#FFF}
+.cabeza{margin-top: 10px; margin-bottom: 10px;}
+.titulo,.tituloprincipal{color:#123456}
+.subtitulo{font-size:25px}
+.rounded-circle{height:150px;width:150px;border-style: solid;border-width: 5px;}
+.rounded-circle2{background-color:#000;padding:15px;height:80px;width:85px;border-radius:50%}
+.panel,.panel2{padding:30px}
+.rounded-circle3{height:50px;width:55px;border-radius:50%;color:#FFF;margin-top:-20px;align-content:right}
+.form-control,.llameya{width:100%}
+.llameya{color:#000;margin-top:-10px;align-content:right;background-color:#FAFAFA}
+.panel2{background-color:#FFF;border:1px solid #CCC;margin-bottom:45px;-webkit-box-shadow:-1px 3px 6px -1px rgba(0,0,0,.26);-moz-box-shadow:-1px 3px 6px -1px rgba(0,0,0,.26);box-shadow:-1px 3px 6px -1px rgba(0,0,0,.26)}
+.panel2:hover{background-color:#FFF}
+.footer{background-color:#000;color:#FFF;padding:20px;text-align:center}
+.titulo2,.titulo3{font-family:Roboto,sans-serif;color:#1A1E41;text-align:left}
+.altura{height:50px}#encabeza{padding-top:10px;padding-bottom:10px}
+#presentacion{height:300px}
+.enfoque{font-family:Roboto,sans-serif}
+.titulo3{size:18px}.btn-default,.decidir{background-color:#1A1E41;color:#FFF}
+.software{margin-bottom:50px}
+.sombra{-webkit-box-shadow:-1px 3px 6px -1px rgba(0,0,0,.26);-moz-box-shadow:-1px 3px 6px -1px rgba(0,0,0,.26);box-shadow:-1px 3px 6px -1px rgba(0,0,0,.26)}
+.decidir{padding:20px;text-align:center}
+.decidir:hover{background-color:#1A1E41EE}
+/*.input-group{width:70%}*/
+.redes{margin-bottom:10px}
+.columnaizq{width:30%}
+
+#recordar{margin-top: 15px}
+.espacio{margin-top: 50px; margin-bottom: 50px}
+.espacio2{margin-bottom: 50px}
+.espacio3{padding-top:70px;padding-bottom:70px}
+.registrar{background-color: #28a745; width: 100%;padding-top: 20px; padding-bottom: 20px; color:#FFF; text-align:center}
+.iniciar{background-color: #192a56; width: 100%; padding-top: 20px; padding-bottom: 20px; color:#FFF; text-align:center}
+/*.registrar:hover{background-color: #28a745aa}
+.iniciar:hover{background-color: #192a56aa}*/
+/*.espacio-input{padding: 5px 5px}*/
+.card-title{font-family: 'Anton',sans-serif;}
+.custom-radio{padding: 30px 30px;}
+.custom-radio:hover{background-color: #EFEFEF}
+.formulario-contacto{padding-bottom: 80px}
+.flex-column{background-color: #727272;}
+.fila_alta{height: 100px}
+.formulario-contacto{margin-top: 50px; margin-bottom: 30px}
+.contactoflotante {
+    background: #7e2778EB;
+    display: block;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    font-weight: bold;
+    right: 50px;
+    text-decoration:none;
+    
+}
+
+.contactoflotante:hover{text-decoration:none;background: #7e2778;}
+fieldset{margin-bottom: 25px}
+
+@media (orientation: landscape) {
+	.tituloprincipal{font-size:4rem}
+	.subtitulo{font-size:2rem}
+	.carousel-caption{font-size: 50px; text-shadow: 5px 5px 3px #000;}
+}
+@media (orientation: portrait) {
+	.tituloprincipal{font-size:2rem}
+	.subtitulo{font-size:1rem}
+	.carousel-caption{display:block;font-size:20px;text-shadow: 1px 1px 2px #000;}
+}
+.modelo{font-family: 'Lobster', cursive;text-align:center; color:#123456; font-size:3rem; text-decoration: underline;text-transform: lowercase;}
+.table{margin-top: 50px} 
+.table th{
+  width: 12%;
+  overflow: auto;
+}
+#error_input{text-align:center;font-size:2rem;margin-top: 25px;}
+.P0{background-color: #3498db}
+.P1{background-color: #2ecc71}
+.P2{background-color: gold}
+.P3{background-color: #e74c3c}
+.P4{background-color: darkslateblue}
+
+.P01{background-color: #11876d}
+.P02{background-color: green}
+.P03{background-color: #9b59b6}
+.P04{background-color: blue}
+
+.P10{background-color: #11876d}
+.P20{background-color: green}
+.P30{background-color: #9b59b6}
+.P40{background-color: blue}
+
+.P12{background-color: #5ed587}
+.P13{background-color: #bedd29}
+.P14{background-color: turquoise}
+
+
+.P23{background-color: orange}
+.P24{background-color: indigo}
+
+
+.P34{background-color: #ba00ee}
+
+.P012{background-color: #000}
+
+.P123{background-color: #000}
+
+.P234{background-color: #000}
+
+
+.P0123{background-color: #592e0b}
+
+
+
+
+
